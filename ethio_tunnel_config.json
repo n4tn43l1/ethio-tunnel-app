@@ -1,8 +1,8 @@
 {
   "update": [
     {
-      "Version": "1.0.1",
-      "ReleaseNotes": "New servers added and connection improvements.",
+      "Version": "1.2.1",
+      "ReleaseNotes": "New servers added and connection improvements and in app update test.",
       "Url": "https://t.me/Ethiotunnell"
     }
   ]
