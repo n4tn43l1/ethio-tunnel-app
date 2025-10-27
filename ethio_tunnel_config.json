@@ -1,48 +1,7 @@
+
 {
-  "servers": [
-    {
-      "name": "UK • Special Server",
-      "ip": "142.93.104.22",
-      "protocol": "HTTP",
-      "host": "uk.vpnjantit.com",
-      "wsHost": "uk.vpnjz.com",
-      "ports": { "ssh": 22, "ssl": 81444, "websocket": 8880 }
-    },
-    {
-      "name": "Germany • Frankfurt",
-      "ip": "134.209.227.112",
-      "protocol": "HTTP",
-      "host": "de.server.com",
-      "wsHost": "de.ws.server.com",
-      "ports": { "ssh": 22, "ssl": 443, "websocket": 8880 }
-    }
-  ],
-  "tweaks": [
-    {
-      "name": "EthioTel • Free (Airplane Trick)",
-      "recommendedServer": "UK • Special Server",
-      "sni": "www.ethiotelecom.et",
-      "instructions": "Tip: Toggle Airplane Mode if it fails"
-    },
-    { "name": "Direct Connection (No Tweak)" }
-  ]
-},
-{
-  "servers": [
-    {
-      "name": "UK • Special Server",
-      "ip": "142.93.104.22",
-      "protocol": "HTTP",
-      "host": "uk.vpnjantit.com",
-      "wsHost": "uk.vpnjz.com",
-      "ports": { "ssh": 22, "ssl": 81444, "websocket": 8880 }
-    },
-    {
-      "name": "Test Online Update",
-      "ip": "8.8.8.8",
-      "protocol": "HTTP",
-      "host": "test.github.com",
-      "wsHost": "test-ws.github.com",
-      "ports": { "ssh": 22, "ssl": 443, "websocket": 80 }
-    }
-  ]
+  "name": "Test online Update",
+  "sni": "test.update.com",
+  "instructions": "This tweak was added from GitHub!",
+  "recommendedServer": "UK • Special Server"
+}
