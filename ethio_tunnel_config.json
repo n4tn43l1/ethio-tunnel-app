@@ -1,5 +1,5 @@
 {
-  "version": 2.4,
+  "version": 2.6.7,
   "servers": [
     { 
         "name": "UK • Special Server V2", 
@@ -12,7 +12,7 @@
   ],
   "tweaks": [
     { 
-        "name": "Test online Update",
+        "name": "Test agiain online Update",
         "sni": "www.new-trick.com"
     }
   ]
