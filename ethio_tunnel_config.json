@@ -1,9 +1,19 @@
 {
-  "update": [
-    {
-      "Version": "1.2.1",
-      "ReleaseNotes": "New servers added and connection improvements and in app update test.",
-      "Url": "https://t.me/Ethiotunnell"
+  "version": 2,
+  "servers": [
+    { 
+        "name": "UK • Special Server V2", 
+        "ip": "142.93.104.22",
+        "protocol": "HTTP", 
+        "host": "uk.new.vpnjantit.com",
+        "wsHost": "uk.new.vpnjz.com",
+        "ports": { "ssh": 22, "ssl": 444, "websocket": 8880 }
+    }
+  ],
+  "tweaks": [
+    { 
+        "name": "EthioTel • New Trick",
+        "sni": "www.new-trick.com"
     }
   ]
 }
