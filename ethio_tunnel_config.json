@@ -1,5 +1,5 @@
 {
-  "version": 2.1,
+  "version": 2.4,
   "servers": [
     { 
         "name": "UK • Special Server V2", 
@@ -14,6 +14,8 @@
     { 
         "name": "EthioTel • New Trick",
         "sni": "www.new-trick.com"
+      "name":"Test Online Update"
+      "sni":"www.t.me.com"
     }
   ]
 }
