@@ -1,13 +1,29 @@
 {
   "version": 2.6,
   "servers": [
-    { 
-        "name": "UK • Special Server V2", 
-        "ip": "142.93.104.22",
-        "protocol": "HTTP", 
-        "host": "uk.new.vpnjantit.com",
-        "wsHost": "uk.new.vpnjz.com",
-        "ports": { "ssh": 22, "ssl": 444, "websocket": 8880 }
+    { {
+  "host": "uk.vpnjantit.com",
+  "port": 443,
+  "username": "natnael-vpnjantit.com",
+  "password": "927729",
+  "sni": "www.ethiotelecom.et",
+  "tlsVersion": "1.3",
+  "localProxy": "socks5://127.0.0.1:1080",
+  "apn": "etc.com",
+  "splitTunnel": [
+    "*.googleadservices.com",
+    "*.googlesyndication.com",
+    "192.168.1.0/24"
+  ],
+  "reconnect": true,
+  "protocol": "ssh",
+  "udpForwarding": true,
+  "udpPorts": [
+    500,
+    4500
+  ],
+  "instructions": "EthioTel DPI Bypass. Auto-reconnect enabled for stability."
+} }
     }
   ],
   "tweaks": [
