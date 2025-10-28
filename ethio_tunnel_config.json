@@ -1,5 +1,5 @@
 {
-  "version": 3.0,
+  "version": 3.1,
   "servers": [
     {
       "name": "USA - SSL/TLS (Port 444)",
@@ -44,7 +44,7 @@
     },
     {
       "name": "WhatsApp • SNI Tweak",
-      "sni": "v.whatsapp.net",
+      "sni": "web.whatsapp.org",
       "instructions": "Use to disguise traffic as WhatsApp."
     }
   ]
