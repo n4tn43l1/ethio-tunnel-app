@@ -2,7 +2,7 @@
   "version": 3.4,
   "servers": [
     {
-      "name": "USA - SSL/TLS (Port 444)",
+      "name": "USA",
       "host": "usa5.vpnjantit.com",
       "port": 444,
       "protocol": "ssl",
@@ -12,7 +12,7 @@
       "instructions": "Uses SSL/TLS wrapper. Good for bypassing network restrictions."
     },
     {
-      "name": "USA - Direct SSH (Port 22)",
+      "name": "USA - Direct SSH",
       "host": "usa5.vpnjantit.com",
       "port": 22,
       "protocol": "ssh",
@@ -33,7 +33,7 @@
   ],
   "tweaks": [
     {
-      "name": "No Tweak (Use Server Default)",
+      "name": "Nati Test Tweak",
       "instructions": "Uses the default settings from the selected server."
     },
     {
