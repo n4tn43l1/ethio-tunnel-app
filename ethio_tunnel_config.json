@@ -1,35 +1,51 @@
 {
-  "version": 2.8,
+  "version": 3.0,
   "servers": [
-    { {
-  "host": "uk.vpnjantit.com",
-  "port": 443,
-  "username": "natnael-vpnjantit.com",
-  "password": "927729",
-  "sni": "www.ethiotelecom.et",
-  "tlsVersion": "1.3",
-  "localProxy": "socks5://127.0.0.1:1080",
-  "apn": "etc.com",
-  "splitTunnel": [
-    "*.googleadservices.com",
-    "*.googlesyndication.com",
-    "192.168.1.0/24"
-  ],
-  "reconnect": true,
-  "protocol": "ssh",
-  "udpForwarding": true,
-  "udpPorts": [
-    500,
-    4500
-  ],
-  "instructions": "EthioTel DPI Bypass. Auto-reconnect enabled for stability."
-} 
-    
+    {
+      "name": "USA - SSL/TLS (Port 444)",
+      "host": "usa5.vpnjantit.com",
+      "port": 444,
+      "protocol": "ssl",
+      "username": "natnael-vpnjantit.com",
+      "password": "927729",
+      "sni": "usa5.vpnjantit.com",
+      "instructions": "Uses SSL/TLS wrapper. Good for bypassing network restrictions."
+    },
+    {
+      "name": "USA - Direct SSH (Port 22)",
+      "host": "usa5.vpnjantit.com",
+      "port": 22,
+      "protocol": "ssh",
+      "username": "natnael-vpnjantit.com",
+      "password": "927729",
+      "instructions": "Direct connection. Might be blocked on some networks."
+    },
+    {
+      "name": "USA - WebSocket SSL (Port 2096)",
+      "host": "usa5.vpnjz.com",
+      "port": 2096,
+      "protocol": "websocket",
+      "username": "natnael-vpnjantit.com",
+      "password": "927729",
+      "sni": "usa5.vpnjz.com",
+      "instructions": "Uses WebSocket over SSL. Best for restrictive firewalls."
+    }
   ],
   "tweaks": [
-    { 
-        "name": "Test agiain online Update",
-        "sni": "www.new-trick.com"
+    {
+      "name": "No Tweak (Use Server Default)",
+      "instructions": "Uses the default settings from the selected server."
+    },
+    {
+      "name": "EthioTel • SNI Tweak",
+      "sni": "www.ethiotelecom.et",
+      "instructions": "Tip: Toggle Airplane Mode if it fails",
+      "recommendedServer": "Any Server"
+    },
+    {
+      "name": "WhatsApp • SNI Tweak",
+      "sni": "v.whatsapp.net",
+      "instructions": "Use to disguise traffic as WhatsApp."
     }
   ]
 }
