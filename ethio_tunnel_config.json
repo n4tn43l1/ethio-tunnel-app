@@ -12,10 +12,8 @@
   ],
   "tweaks": [
     { 
-        "name": "EthioTel • New Trick",
+        "name": "Test online Update",
         "sni": "www.new-trick.com"
-      "name":"Test Online Update"
-      "sni":"www.t.me.com"
     }
   ]
 }
