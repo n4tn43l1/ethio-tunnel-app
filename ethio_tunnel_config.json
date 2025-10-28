@@ -1,5 +1,5 @@
 {
-  "version": 2.6,
+  "version": 2.8,
   "servers": [
     { {
   "host": "uk.vpnjantit.com",
@@ -23,7 +23,7 @@
     4500
   ],
   "instructions": "EthioTel DPI Bypass. Auto-reconnect enabled for stability."
-} }
+} 
     
   ],
   "tweaks": [
