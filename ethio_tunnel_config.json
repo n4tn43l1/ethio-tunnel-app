@@ -1,5 +1,5 @@
 {
-  "version": "2.6",
+  "version": "2.8",
   "downloadUrl": "YOUR_APP_DOWNLOAD_LINK_HERE",
   "servers": [
     { "id": "us-ny", "country": "United States", "city": "New York", "flag": "🇺🇸" },
