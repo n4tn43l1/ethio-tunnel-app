@@ -1,51 +1,23 @@
 {
-  "version": 3.6,
+  "version": "1.0.0",
+  "downloadUrl": "YOUR_APP_DOWNLOAD_LINK_HERE",
   "servers": [
-    {
-      "name": "USA",
-      "host": "usa5.vpnjantit.com",
-      "port": 444,
-      "protocol": "ssl",
-      "username": "natnael-vpnjantit.com",
-      "password": "927729",
-      "sni": "usa5.vpnjantit.com",
-      "instructions": "Uses SSL/TLS wrapper. Good for bypassing network restrictions."
-    },
-    {
-      "name": "USA - Direct SSH",
-      "host": "usa5.vpnjantit.com",
-      "port": 22,
-      "protocol": "ssh",
-      "username": "natnael-vpnjantit.com",
-      "password": "927729",
-      "instructions": "Direct connection. Might be blocked on some networks."
-    },
-    {
-      "name": "USA - WebSocket SSL (Port 2096)",
-      "host": "usa5.vpnjz.com",
-      "port": 2096,
-      "protocol": "websocket",
-      "username": "natnael-vpnjantit.com",
-      "password": "927729",
-      "sni": "usa5.vpnjz.com",
-      "instructions": "Uses WebSocket over SSL. Best for restrictive firewalls."
-    }
+    { "id": "us-ny", "country": "United States", "city": "New York", "flag": "🇺🇸" },
+    { "id": "us-la", "country": "United States", "city": "Los Angeles", "flag": "🇺🇸" },
+    { "id": "ca-tr", "country": "Canada", "city": "Toronto", "flag": "🇨🇦" },
+    { "id": "gb-ld", "country": "United Kingdom", "city": "London", "flag": "🇬🇧" },
+    { "id": "de-fr", "country": "Germany", "city": "Frankfurt", "flag": "🇩🇪" },
+    { "id": "jp-tk", "country": "Japan", "city": "Tokyo", "flag": "🇯🇵" },
+    { "id": "au-sy", "country": "Australia", "city": "Sydney", "flag": "🇦🇺" },
+    { "id": "sg-sg", "country": "Singapore", "city": "Singapore", "flag": "🇸🇬" },
+    { "id": "et-aa", "country": "Ethiopia", "city": "Addis Ababa", "flag": "🇪🇹" }
   ],
   "tweaks": [
-    {
-      "name": "Nati Test Tweak",
-      "instructions": "Uses the default settings from the selected server."
-    },
-    {
-      "name": "EthioTel • SNI Tweak",
-      "sni": "www.ethiotelecom.et",
-      "instructions": "Tip: Toggle Airplane Mode if it fails",
-      "recommendedServer": "Any Server"
-    },
-    {
-      "name": "WhatsApp • SNI Tweak",
-      "sni": "web.whatsapp.org",
-      "instructions": "Use to disguise traffic as WhatsApp."
-    }
+    { "id": "auto", "name": "Automatic", "description": "Let the app decide" },
+    { "id": "et-free", "name": "Ethio Telecom Free", "description": "Optimized for Ethio Telecom Free users" },
+    { "id": "et-pkg", "name": "Ethio Telecom Package", "description": "For users with data packages" },
+    { "id": "et-unlimited", "name": "Ethio Telecom Unlimited", "description": "For unlimited data plan users" },
+    { "id": "sf-pkg", "name": "Safaricom Package", "description": "Optimized for Safaricom users" },
+    { "id": "sf-free", "name": "Safaricom Free", "description": "For Safaricom free data offers" }
   ]
 }
